@@ -1,0 +1,14 @@
+#!/bin/sh
+
+dnsmasq="/etc/storage/dnsmasq/dnsmasq.conf"
+vlmcs_dns="srv-host=_vlmcs._tcp,my.router,1688,0,100"
+
+if grep -q $vlmcs_dns $dnsmasq
+	then
+		sed -i "/$vlmcs_dns/d" $dnsmasq
+		mtd_storage.sh save
+		killall -q dnsmasq
+		/usr/sbin/dnsmasq
+fi
+
+exit

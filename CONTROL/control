@@ -1,0 +1,10 @@
+Package: vlmcsd
+Version: 1112
+Source: https://github.com/Wind4/vlmcsd
+Section: net
+Maintainer: dartraiden <wowemuh@gmail.com>
+Architecture: mipsel-3.4
+Description: vlmcsd is a fully Microsoft compatible KMS server that provides
+ product activation services to clients. It is meant as a drop-in replacement
+ for a Microsoft KMS server (Windows computer with KMS key entered).
+ It currently supports KMS protocol versions 4, 5 and 6.
