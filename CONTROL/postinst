@@ -3,6 +3,8 @@
 dnsmasq="/etc/storage/dnsmasq/dnsmasq.conf"
 vlmcs_dns="srv-host=_vlmcs._tcp,my.router,1688,0,100"
 
+vlmcsd -i /opt/etc/vlmcsd.ini
+
 if ! grep -q $vlmcs_dns $dnsmasq
 	then
 		echo $vlmcs_dns >> $dnsmasq
