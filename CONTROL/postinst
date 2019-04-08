@@ -12,5 +12,3 @@ if ! grep -q $vlmcs_dns $dnsmasq
 		killall -q dnsmasq
 		/usr/sbin/dnsmasq
 fi
-
-exit
