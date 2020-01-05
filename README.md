@@ -6,7 +6,7 @@ git clone https://github.com/dartraiden/vlmcsd_Entware
 git clone https://git.yoctoproject.org/cgit/cgit.cgi/opkg-utils
 cd vlmcsd_Entware/<your_arch>
 chmod 600 opt/etc/vlmcsd.ini
-chmod 775 opt/sbin/vlmcsd opt/etc/init.d/S37vlmcsd
+chmod 755 opt/sbin/vlmcsd opt/etc/init.d/S37vlmcsd
 cd ../..
 opkg-utils/opkg-build -c -Z gzip -o root -g root vlmcsd_Entware/<your_arch>
 ```
