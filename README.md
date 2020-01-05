@@ -5,10 +5,12 @@ Use [opkg-build](https://git.yoctoproject.org/cgit/cgit.cgi/opkg-utils) from Yoc
 git clone https://github.com/dartraiden/vlmcsd_Entware
 git clone https://git.yoctoproject.org/cgit/cgit.cgi/opkg-utils
 cd vlmcsd_Entware/<your_arch>
-chmod 600 /opt/etc/vlmcsd.ini
-chmod 775 /opt/sbin/vlmcsd /opt/etc/init.d/S37vlmcsd
-chmod +x /opt/sbin/vlmcsd /opt/etc/init.d/S37vlmcsd
-~/opkg-utils/opkg-build -c -Z gzip -o root -g root ~/vlmcsd_Entware/<your_arch> ~
+chmod 600 opt/etc/vlmcsd.ini
+chmod 775 opt/sbin/vlmcsd opt/etc/init.d/S37vlmcsd
+chmod +x opt/sbin/vlmcsd opt/etc/init.d/S37vlmcsd
+cd ..
+cd ..
+opkg-utils/opkg-build -c -Z gzip -o root -g root vlmcsd_Entware/<your_arch>
 ```
 
 or download compiled .ipk from Releases.
