@@ -2,6 +2,7 @@
 Use [opkg-build](https://git.yoctoproject.org/cgit/cgit.cgi/opkg-utils) from Yocto Project:
 
 ```
+sudo su
 git clone https://github.com/dartraiden/vlmcsd_Entware
 git clone https://git.yoctoproject.org/cgit/cgit.cgi/opkg-utils
 cd vlmcsd_Entware/<your_arch>
