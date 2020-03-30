@@ -1,8 +1,8 @@
 Package: vlmcsd
-Version: 1112-4
+Version: 1113-1
 Source: https://github.com/Wind4/vlmcsd
 Section: net
-Maintainer: dartraiden <dartraiden@protonmail.com>
+Maintainer: dartraiden <wowemuh@gmail.com>
 Architecture: armv7-3.2
 Description: vlmcsd is a fully Microsoft compatible KMS server that provides
  product activation services to clients. It is meant as a drop-in replacement
