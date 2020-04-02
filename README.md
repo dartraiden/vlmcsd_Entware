@@ -40,4 +40,10 @@ cscript "C:\Program Files\Microsoft Office\Office16\ospp.vbs" /act
 YYYYY-YYYYY-YYYYY-YYYYY-YYYYY - [Generic Volume License Key](https://docs.microsoft.com/deployoffice/vlactivation/gvlks) corresponding to the installed edition of Office or particular product.
 
 # Thanks to
-- [Hotbird64](https://forums.mydigitallife.net/members/hotbird64.333466/) for vlmcsd
+- [Hotbird64](https://forums.mydigitallife.net/members/hotbird64.333466/) for vlmcsd:
+  - vlmcsd-armv5el-musl-thumb-static
+  - vlmcsd-armv7el-uclibc-static
+  - vlmcsd-mips32el-uclibc-static
+  - vlmcsd-mips32-musl-static
+  - vlmcsd-x64-musl-static
+  - vlmcsd-x86-musl-static
